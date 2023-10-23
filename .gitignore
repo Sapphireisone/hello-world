@@ -1,0 +1,4 @@
+dist
+.vscode
+sayhello/__pycache__
+__pycache__
