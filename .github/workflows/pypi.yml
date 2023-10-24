@@ -7,9 +7,8 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
             - name: Install deps
-              run: make install
+              run: poetry install
             - name: Build
-              run: make build
+              run: poetry build
             - name: Say-hello
               run: poetry run say-hello
-
